@@ -6,7 +6,10 @@ The Supply Chain Choreographer (SCC) plug-in enables you to visualize the execut
 
 ## <a id="prerequisites"></a> Prerequisites
 
-You must have either of the Full or View profiles installed on your cluster, which includes the Tanzu Application Platform GUI.
+You must have installed: 
+- Tanzu Application Platform GUI
+- At least one of the OOTB supply chains
+- Copied the secret (work with James R on wording) for the metadata store (if using a supply chain that includes scanning) following the instructions here <put link to instructions on how to copy the secret into the tap-values.yaml file. 
 
 ## <a id="sc-visibility"></a> Supply Chain Visibility
 
@@ -22,7 +25,7 @@ Click **tanzu-java-web-app** in the **WORKLOADS** table to navigate to the visua
 
 ![Screen Shot 2022-03-04 at 2 29 32 PM](https://user-images.githubusercontent.com/94395371/156849831-6ab69788-2269-4087-a9e7-b65853e898e7.png)
 
-This is how the Out-Of-The-Box Supply Chain with Test and Scan is represented in the SCC plugin through Tanzu Application Platform GUI. See [Out of the Box Supply Chain with Testing and Scanning](../../scc/ootb-supply-chain-testing-scanning.md) for more information about the Supply Chain.
+This is how the Out-Of-The-Box Supply Chain with Test and Scan is represented in the SCC plug-in through Tanzu Application Platform GUI. See [Out of the Box Supply Chain with Testing and Scanning](../../scc/ootb-supply-chain-testing-scanning.md) for more information about the Supply Chain.
 
 There are two sections within this view:
 
