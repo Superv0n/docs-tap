@@ -36,3 +36,17 @@ Here is a sample result of the Source Scan stage for the `tanzu-java-web-app` by
 Here is a sample result of the Build stage for the `tanzu-java-web-app` by using Tanzu Build Service:
 
 ![Screen Shot 2022-03-04 at 2 27 42 PM](https://user-images.githubusercontent.com/94395371/156852521-d0e1582d-4341-472e-8d34-64b9fbaa62a8.png)
+
+## <a id="sc-errors"></a> Supply Chain Errors
+
+When looking at the **WORKLOADS** table, if there was an error encountered during the execution of the workload in the supply chain, a red icon will appear. If the icon is green, the workload executed successfully. 
+
+Here is an example of a successful execution: 
+<insert image here for list of workloads with all green>
+  
+When looking at the graph view, after selecting your workload, the top right corner of the graph view will display **Errors** in Red (# of errors) and **Warnings** in Yellow (# of warnings) that have occurred during the workload's execution in the supply chain. 
+  
+Here is an example of a workload that encountered errors during execution:  
+<insert image here for errors in execution>
+  
+Each stage of the supply chain will have the same indicator color to draw attention to the outcome of each stage. This enables effective troubleshooting of each stage in the supply chain to ensure your workload has a smooth path to production.  
